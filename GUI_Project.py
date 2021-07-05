@@ -206,38 +206,53 @@ def o_icons(o_iconx, o_icony, j):
 
 def check_win():
     if box_1x and box_2x and box_3x == True:
-            print("Player1 Win")
+            print("Player1 Wins!")
+            sys.exit()
     elif box_4x and box_5x and box_6x == True:
-            print("Player1 Win")
+            print("Player1 Wins!")
+            sys.exit()
     elif box_7x and box_8x and box_9x == True:
-            print("Player1 Win")
+            print("Player1 Wins!")
+            sys.exit()
     elif box_1x and box_4x and box_7x == True:
-            print("Player1 Win")
+            print("Player1 Wins!")
+            sys.exit()
     elif box_2x and box_5x and box_8x == True:
-            print("Player1 Win")
+            print("Player1 Wins!")
+            sys.exit()
     elif box_3x and box_6x and box_9x == True:
-            print("Player1 Win")
+            print("Player1 Wins!")
+            sys.exit()
     elif box_1x and box_5x and box_9x == True:
-            print("Player1 Win")
+            print("Player1 Wins!")
+            sys.exit()
     elif box_3x and box_5x and box_7x == True:
-            print("Player1 Win")
-
+            print("Player1 Wins!")
+            sys.exit()
     elif box_1o and box_2o and box_3o == True:
-            print("Player2 Win")
+            print("Player2 Wins!")
+            sys.exit()
     elif box_4o and box_5o and box_6o == True:
-            print("Player2 Win")
+            print("Player2 Wins!")
+            sys.exit()
     elif box_7o and box_8o and box_9o == True:
-            print("Player2 Win")
+            print("Player2 Wins!")
+            sys.exit()
     elif box_1o and box_4o and box_7o == True:
-            print("Player2 Win")
+            print("Player2 Wins!")
+            sys.exit()
     elif box_2o and box_5o and box_8o == True:
-            print("Player2 Win")
+            print("Player2 Wins!")
+            sys.exit()
     elif box_3o and box_6o and box_9o == True:
-            print("Player2 Win")
+            print("Player2 Wins!")
+            sys.exit()
     elif box_1o and box_5o and box_9o == True:
-            print("Player2 Win")
+            print("Player2 Wins!")
+            sys.exit()
     elif box_3o and box_5o and box_7o == True:
-            print("Player2 Win")
+            print("Player2 Wins!")
+            sys.exit()
 
 
 # Intro screen
